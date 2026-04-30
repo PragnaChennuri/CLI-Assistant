@@ -27,7 +27,3 @@ npm start -- done 1
 npm start -- remove 1
 npm start -- stats
 ```
-
-## Data Storage
-
-By default, the app stores data in `~/.cli-assistant/tasks.json`. You can override the location with `CLI_ASSISTANT_DATA_DIR`.
