@@ -1,0 +1,20 @@
+{
+  "name": "cli-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "cli-assistant": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  }
+}
